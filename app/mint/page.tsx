@@ -62,7 +62,7 @@ export default function MintPage() {
             className={buttonVariants({ variant: 'link' })}
             href="https://goerli.lineascan.build/tx/0x0d678857a1f3379c99ddaf0e40694566eccb6ff435851949731974ae7b83a28c"
           >
-            0x0d678857a1f3379c99ddaf0e40694566eccb6ff435851949731974ae7b83a28c
+            0x0d678857a1f337...31974ae7b83a28c
           </Link>
         </div>
         <div>
@@ -77,10 +77,6 @@ export default function MintPage() {
         <div>
           <p>Mint 1 $BOMMY</p>
           <Button onClick={mint}>Mint</Button>
-        </div>
-        <div>
-          <p>You have...</p>
-          <p>1 $BOMMY</p>
         </div>
       </div>
     </main>
