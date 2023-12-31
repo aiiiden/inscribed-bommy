@@ -1,6 +1,7 @@
 'use client';
 
 import { RainbowKitProvider } from '@rainbow-me/rainbowkit';
+import '@rainbow-me/rainbowkit/styles.css';
 import { WagmiConfig } from 'wagmi';
 
 import { rainbowConfig, wagmiConfig } from '@/configs/wallet';
