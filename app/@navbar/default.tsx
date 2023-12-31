@@ -26,11 +26,11 @@ export default async function DefaultNavbar() {
             Mint
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/" className={linkClass}>
             Dashboard
           </Link>
-        </li>
+        </li> */}
       </menu>
     </nav>
   );
